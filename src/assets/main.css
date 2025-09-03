@@ -1,0 +1,49 @@
+@import './base.css';
+@import "../../node_modules/tailwindcss";
+
+@custom-variant hover (&:hover);
+
+/* CSS para smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+html, body{
+  height: 100%;
+  max-width: 100%;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: rgb(207, 221, 216);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 32%, 82%, 0.2);
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    display: flex !important;
+    place-items: center;
+  }
+
+  #app {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+
+}
