@@ -7,7 +7,8 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'challengueNv1',
+  base: 'https://starking-dev.github.io/challengueNv1/', 
+
   plugins: [
     vue(),
     vueDevTools(),
