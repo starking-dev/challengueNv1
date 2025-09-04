@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'desafíoNv1',
+  base: 'challengueNv1',
   plugins: [
     vue(),
     vueDevTools(),
