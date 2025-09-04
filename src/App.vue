@@ -1,8 +1,9 @@
 <template class="" >
-    <div id="app-container" class="w-full bg-teal-200 min-h-screen">
+
+    <div id="" class="w-full max-h-full bg-teal-200 content-between gap-4 flex flex-col">
 
        <Navbar/>
-       
+
     <!-- Sección de Inicio -->
     <section id="inicio" class="flex-grow flex items-center justify-center p-8 bg-sky-800 text-white shadow-lg rounded-b-xl mb-8">
       <div class="text-center max-w-2xl">
@@ -12,10 +13,8 @@
         </p>
       </div>
     </section> 
-    <br>
-    <br>
-    <br>
-
+    <br><br><br>
+    
     <!-- Sección de Contacto -->
     <section id="contacto" class="w-full mx-auto p-8 my-8 bg-sky-800 shadow-lg rounded-b-xl mb-8">
       <h2 class="text-3xl font-bold text-white text-center mb-6">Contáctenos</h2>
@@ -41,7 +40,9 @@
           </button>
         </div>
       </form>
-    </section>
+    </section>  
+    
+    <AddElements/>    
 
     <!-- Pie de página -->
     <footer class="bg-gray-800 text-white text-center p-4 mt-auto -xl">
@@ -50,28 +51,24 @@
       </p>
     </footer>
 
-
-
-
     </div>
 
 </template>
 
 <script>
 import Navbar from "./components/Navbar.vue"
+import AddElements from "./components/AddElements.vue"
+
 
 export default {
   name: "App",
   components: {
-    Navbar,
+    Navbar, AddElements,
   },
 };
 
 </script>
 
 <style>
-/* CSS para smooth scroll */
-html {
-  scroll-behavior: smooth;
-}
+
 </style>
