@@ -1,6 +1,6 @@
 <template class="" >
 
-    <div id="" class="w-full max-h-full bg-teal-200 content-between gap-4 flex flex-col">
+    <div id="" class="w-full max-h-full bg-teal-200 content-between flex flex-col">
 
        <Navbar/>
 
@@ -16,7 +16,7 @@
     <br><br><br>
     
     <!-- Sección de Contacto -->
-    <section id="contacto" class="w-full mx-auto p-8 my-8 bg-sky-800 shadow-lg rounded-b-xl mb-8">
+    <section id="contacto" class="w-full mx-auto p-8 my-8 bg-sky-800 shadow-lg rounded-xl mb-8">
       <h2 class="text-3xl font-bold text-white text-center mb-6">Contáctenos</h2>
       <p class="text-center text-white mb-8">
         Envíanos un mensaje y ponte en contacto.

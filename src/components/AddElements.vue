@@ -3,7 +3,7 @@
     <div id="addEle" class="bg-teal-200" >
 
     
-  <div class="left-0 p-5 w-full bg-sky-800 text-white shadow-lg rounded-b-xl mb-8">
+  <div class="left-0 p-5 w-full bg-sky-800 text-white shadow-lg rounded-xl mb-8" style="margin-top: 20px; margin-bottom: 20px;">
     <form @submit.prevent="addItem" class="flex gap-2">
       <input
         v-model="newItem"
